@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Student</title>
+
+<link rel="stylesheet" href="search.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>SDMS</h2>
+
+<ul>
+
+<li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+
+<li><a href="add-student.html"><i class="fa-solid fa-user-plus"></i> Add Student</a></li>
+
+<li><a href="view-students.html"><i class="fa-solid fa-users"></i> View Students</a></li>
+
+<li><a href="update-delete.html"><i class="fa-solid fa-pen-to-square"></i> Update/Delete</a></li>
+
+<li class="active"><a href="search.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+
+<li><a href="reports.html"><i class="fa-solid fa-chart-column"></i> Reports</a></li>
+
+<li><a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
+
+<li><a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<h1>Search Student</h1>
+
+<input type="text" id="searchInput" placeholder="Search by Roll No or Name..." onkeyup="searchStudent()">
+
+<table id="studentTable">
+
+<thead>
+
+<tr>
+
+<th>Roll No</th>
+<th>Name</th>
+<th>Course</th>
+<th>Department</th>
+<th>Phone</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>165</td>
+<td>Shashwat Verma</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>8090083952</td>
+
+</tr>
+
+<tr>
+
+<td>083</td>
+<td>Ishaa Verma</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxx</td>
+
+
+</tr>
+
+<tr>
+
+<td>173</td>
+<td>Shweta Yadav</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxx</td>
+
+
+</tr>
+
+<tr>
+<td>018</td>
+<td>Adarsh Mishra</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxx</td>
+
+
+</tr>
+
+
+<tr>
+<td>060</td>
+<td>Avinash Yadav</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxx</td>
+
+
+</tr>
+
+
+<tr>
+<td>032</td>
+<td>Amay Singh</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxx</td>
+
+
+</tr>
+
+
+<tr>
+<td>122</td>
+<td>Pawan Verma</td>
+<td>B.Tech</td>
+<td>Computer Science</td>
+<td>123xxxxxxxx</td>
+
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script src="search.js"></script>
+
+</body>
+</html>

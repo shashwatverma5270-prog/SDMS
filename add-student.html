@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Student</title>
+
+<link rel="stylesheet" href="form.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<h2>SDMS</h2>
+
+<ul>
+
+<li><a href="dashboard.html"><i class="fa fa-house"></i> Dashboard</a></li>
+
+<li class="active"><a href="add-student.html"><i class="fa fa-user-plus"></i> Add Student</a></li>
+
+<li><a href="view-students.html"><i class="fa fa-users"></i> View Students</a></li>
+
+<li><a href="update-delete.html"><i class="fa fa-pen"></i> Update/Delete</a></li>
+
+<li><a href="search.html"><i class="fa fa-search"></i> Search</a></li>
+
+<li><a href="reports.html"><i class="fa fa-chart-column"></i> Reports</a></li>
+
+<li><a href="settings.html"><i class="fa fa-gear"></i> Settings</a></li>
+
+<li><a href="index.html"><i class="fa fa-right-from-bracket"></i> Logout</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<h1>Add Student</h1>
+
+<form id="studentForm">
+
+<div class="row">
+
+<input type="text" placeholder="Roll Number" required>
+
+<input type="text" placeholder="Full Name" required>
+
+</div>
+
+<div class="row">
+
+<input type="text" placeholder="Father's Name">
+
+<input type="text" placeholder="Mother's Name">
+
+</div>
+
+<div class="row">
+
+<select>
+
+<option>Select Course</option>
+
+<option>BCA</option>
+
+<option>BBA</option>
+
+<option>B.Tech</option>
+
+<option>B.Sc</option>
+
+</select>
+
+<select>
+
+<option>Select Department</option>
+
+<option>Computer Science</option>
+
+<option>Management</option>
+
+<option>Commerce</option>
+
+</select>
+
+</div>
+
+<div class="row">
+
+<select>
+
+<option>Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+<input type="date">
+
+</div>
+
+<div class="row">
+
+<input type="text" placeholder="Phone">
+
+<input type="email" placeholder="Email">
+
+</div>
+
+<textarea placeholder="Address"></textarea>
+
+<div class="buttons">
+
+<button type="submit">Save</button>
+
+<button type="reset">Reset</button>
+
+<a href="dashboard.html">Back</a>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="student.js"></script>
+
+</body>
+</html>
